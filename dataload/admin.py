@@ -1,3 +1,5 @@
 from django.contrib import admin
 
-# Register your models here.
+from dataload.models import TransactionRecordElement
+
+admin.site.register(TransactionRecordElement)
